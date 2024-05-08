@@ -1,9 +1,9 @@
 echo "Start installation"
 
 echo "> Update System"
-sudo apt update > /dev/null 2>&1 &
+sudo apt update
 
 echo "> Installing Discord"
-pip install discord.py > /dev/null 2>&1 &
+pip install discord.py
 
 echo "Finish installation"
